@@ -3,15 +3,13 @@ Community Project
 Uses...
  - Multiple User Profiles
  - File Save/Load
- - mkdir
  - require_relavent
+ - mkdir
+
 
  This project does not do anything useful
  it was created purely for Ruby practice.
 
-
-
- -----------------------------------------
 
 > File Structure
 >  User directories contain <username>Pref.txt
