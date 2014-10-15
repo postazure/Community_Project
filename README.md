@@ -14,5 +14,5 @@ Note: This project does not do anything useful
 >  User directories contain <username>Pref.txt
 >  file and any note files that they make.
 >
->  <p> user preferences  = "./users/<username>Pref.txt" </p>
->  <p> user notes        = "./users/<title>.cpn" </p>
+>  <p> user preferences  = "./users/usernamePref.txt" </p>
+>  <p> user notes        = "./users/title.cpn" </p>
