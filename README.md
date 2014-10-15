@@ -10,7 +10,7 @@ Note: This project does not do anything useful
  it was created purely for Ruby practice.
 
 
-> File Structure
+<p> File Structure </p>
 >  User directories contain <username>Pref.txt
 >  file and any note files that they make.
 >
