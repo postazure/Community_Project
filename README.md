@@ -1,5 +1,5 @@
 Community Project
------------------------------------------
+==========================================
 Uses...
  - Multiple User Profiles
  - File Save/Load
@@ -13,9 +13,9 @@ Uses...
 
  -----------------------------------------
 
- File Structure \n
-  User directories contain <username>Pref.txt
-  file and any note files that they make.
-
-  user preferences  = "./users/<username>Pref.txt" \n
-  user notes        = "./users/<title>.cpn"
+> File Structure
+>  User directories contain <username>Pref.txt
+>  file and any note files that they make.
+>
+>  user preferences  = "./users/<username>Pref.txt"
+>  user notes        = "./users/<title>.cpn"
