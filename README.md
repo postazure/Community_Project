@@ -11,8 +11,8 @@ Note: This project does not do anything useful
 
 
 <p> File Structure </p>
->  User directories contain <username>Pref.txt
->  file and any note files that they make.
->
->  <p> user preferences  = "./users/usernamePref.txt" </p>
->  <p> user notes        = "./users/title.cpn" </p>
+<p>  User directories contain <username>Pref.txt
+  file and any note files that they make. </p>
+
+>  * user preferences  = "./users/usernamePref.txt"
+>  * user notes        = "./users/title.cpn"
