@@ -1,0 +1,4 @@
+---
+bold: ! 'OFF #on, off'
+open: ! 'MIN #min, max'
+resolution: ! 'HIGH #high, low'
