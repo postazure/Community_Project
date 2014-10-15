@@ -1,13 +1,12 @@
 Community Project
 ==========================================
 Uses...
- - Multiple User Profiles
- - File Save/Load
- - require_relavent
- - mkdir
 
+ + Multiple User Profiles
+ + File Save/Load and mkdir
+ + require_relavent
 
- This project does not do anything useful
+Note: This project does not do anything useful
  it was created purely for Ruby practice.
 
 
