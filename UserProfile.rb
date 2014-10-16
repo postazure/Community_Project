@@ -29,7 +29,7 @@ class UserProfile
         break
       end
     end
-    
+
     puts
     puts "You need to setup your preferences to continue."
     @pref_userSettings.each do |key, value|
@@ -59,7 +59,9 @@ class UserProfile
       puts "\t% Login as that user or creat a new user. %"
       puts "\t%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
       puts
+      return false
     end
+    return true
   end
 
 

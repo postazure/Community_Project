@@ -1,10 +1,9 @@
 require_relative 'UserProfile'
 require_relative 'Menu'
-#require_relative 'Notes'
+require_relative 'Notes'
 
 
-$user = UserProfile.new
-$menu = Menu.new
+
 
 
 def main_menu
@@ -26,7 +25,6 @@ def userPref_menu
   menu_list = $user.getUserPref_list
   selection = $menu.displayMenu(menu_list)
   if selection == 1
-    puts "---------------"
     $user.modUserPref_bold
   elsif selection == 2
     $user.modUserPref_open
@@ -41,18 +39,21 @@ def userPref_menu
 end
 
 def note_menu
-  puts
-  puts "\t%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
-  puts "\t%           UNDER CONSTRUCTION          %"
-  puts "\t% Sorry, this option doesn't exist yet. %"
-  puts "\t% Please, check again. Thank you.       %"
-  puts "\t%                                       %"
-  puts "\t% >Press 'ENTER'/ 'RETURN' to contine.  %"
-  puts "\t%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
-  puts
-
-  gets
-  main_menu
+  note = Notes.new
+  note_menu_list = ['View Note','New Note','Delete Note']
+  selection = $menu.displayMenu(note_menu_list)
+  if selection == 1
+    note.viewNote
+  elsif selection == 2
+    note.newNote
+  elsif selection == 3
+    note.deleteNote
+  elsif selection == 4
+    main_menu
+  else
+    notVaild_selection
+  end
+  note_menu
 end
 
 def notVaild_selection
@@ -67,4 +68,11 @@ def notVaild_selection
   main_menu
 end
 
+puts "\n"*100
+puts "Community Project"
+puts "-----------------"
+puts "\n"*4
+
+$user = UserProfile.new
+$menu = Menu.new
 main_menu
